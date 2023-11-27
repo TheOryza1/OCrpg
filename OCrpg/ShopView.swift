@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ShopView: View {
+    @State private var shopWidget = ShopWidgets()
+    let images = ["Click", "Dmaage", "Hp", "Regen", "Resister", "Slow", "Time"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                ForEach(images, id: \.self) {shopWidget.Widget($0)}
+            }
+            .navigationTitle("Shop")
+            .navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 

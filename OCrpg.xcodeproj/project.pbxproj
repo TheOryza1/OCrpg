@@ -11,6 +11,8 @@
 		98DE17FF2B13FF1A0026B01E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE17FE2B13FF1A0026B01E /* ContentView.swift */; };
 		98DE18012B13FF1B0026B01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DE18002B13FF1B0026B01E /* Assets.xcassets */; };
 		98DE18042B13FF1B0026B01E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DE18032B13FF1B0026B01E /* Preview Assets.xcassets */; };
+		98DE180B2B14043E0026B01E /* ShopWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE180A2B14043E0026B01E /* ShopWidgets.swift */; };
+		98DE180D2B141CBD0026B01E /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE180C2B141CBD0026B01E /* ShopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		98DE17FE2B13FF1A0026B01E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98DE18002B13FF1B0026B01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98DE18032B13FF1B0026B01E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98DE180A2B14043E0026B01E /* ShopWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopWidgets.swift; sourceTree = "<group>"; };
+		98DE180C2B141CBD0026B01E /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				98DE17FC2B13FF1A0026B01E /* OCrpgApp.swift */,
 				98DE17FE2B13FF1A0026B01E /* ContentView.swift */,
+				98DE180C2B141CBD0026B01E /* ShopView.swift */,
+				98DE180A2B14043E0026B01E /* ShopWidgets.swift */,
 				98DE18002B13FF1B0026B01E /* Assets.xcassets */,
 				98DE18022B13FF1B0026B01E /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DE180B2B14043E0026B01E /* ShopWidgets.swift in Sources */,
 				98DE17FF2B13FF1A0026B01E /* ContentView.swift in Sources */,
+				98DE180D2B141CBD0026B01E /* ShopView.swift in Sources */,
 				98DE17FD2B13FF1A0026B01E /* OCrpgApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
